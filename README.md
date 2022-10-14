@@ -1,5 +1,7 @@
 # ostro-goriacho
 
+[![ci](https://github.com/Naozumi2k/ostro-goriacho/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Naozumi2k/ostro-goriacho/actions/workflows/ci.yml)
+
 ## Build Setup
 
 ```bash

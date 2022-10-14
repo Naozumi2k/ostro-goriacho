@@ -9,6 +9,8 @@
       <Kitchen-Format />
       <Wow-Product />
       <Drinks-Desserts />
+      <Meat-Vegetables />
+      <Franchise-Support />
     </div>
   </div>
 </template>
@@ -20,6 +22,8 @@ import PossibleFormats from '@/components/PossibleFormats.vue'
 import KitchenFormat from '@/components/KitchenFormat.vue'
 import WowProduct from '@/components/WowProduct.vue'
 import DrinksDesserts from '@/components/DrinksDesserts.vue'
+import MeatVegetables from '@/components/MeatVegetables.vue'
+import FranchiseSupport from '@/components/FranchiseSupport.vue'
 
 export default {
   name: 'IndexPage',
@@ -30,6 +34,8 @@ export default {
     KitchenFormat,
     WowProduct,
     DrinksDesserts,
+    MeatVegetables,
+    FranchiseSupport,
   },
 }
 </script>

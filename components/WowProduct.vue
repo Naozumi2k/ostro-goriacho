@@ -13,7 +13,7 @@
         <div class="grow bg-ribbon"></div>
       </div>
       <div
-        class="mt-7 mb-20 lg:text-2xl text-xl text-center text-black font-normal uppercase drop-shadow-md"
+        class="mt-5 mb-16 lg:text-2xl text-xl text-center text-black font-normal uppercase drop-shadow-md"
       >
         Золотистая острая курочка в хрустящей фирменной панировке
       </div>
@@ -26,17 +26,17 @@
               <Burger />
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
-            <div class="bg-og shadow py-2 text-center">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >20 видов бургеров</span
-              >
+            <div
+              class="bg-og shadow py-2 text-center text-lg font-bold uppercase drop-shadow"
+            >
+              20 видов бургеров
             </div>
-            <p class="mt-1 text-sm text-justify">
+            <p class="mt-1 text-md text-justify drop-shadow-sm">
               Легкая рецептура, маленькие, средние, большие.
             </p>
           </div>
         </div>
-        <div class="flex px-4 md:w-1/3 w-full">
+        <div class="flex px-4 md:w-1/3 w-full center">
           <div class="grow">
             <div
               class="flex justify-center items-center mx-auto w-48 h-48 border-2 border-og rounded-full"
@@ -44,12 +44,12 @@
               <Shawarma />
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
-            <div class="bg-og shadow py-2 text-center">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >20 видов шавермы</span
-              >
+            <div
+              class="bg-og shadow py-2 text-center text-lg font-bold uppercase drop-shadow"
+            >
+              20 видов шавермы и твистеров
             </div>
-            <p class="mt-1 text-sm text-justify">
+            <p class="mt-1 text-md text-justify drop-shadow-sm">
               Самый популярный продукт в ассортименте.
             </p>
           </div>
@@ -62,30 +62,30 @@
               <Panini />
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
-            <div class="bg-og shadow py-2 text-center">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >10 видов панини</span
-              >
+            <div
+              class="bg-og shadow py-2 text-center text-lg font-bold uppercase drop-shadow"
+            >
+              10 видов панини
             </div>
-            <p class="mt-1 text-sm text-justify">
+            <p class="mt-1 text-md text-justify drop-shadow-sm">
               Традиционный итальянский сандвич с сочным куринным филе.
             </p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="relative mt-12">
-      <div
-        class="md:absolute md:top-7 md:left-1/4 md:mb-0 mb-4 md:text-white text-center text-xs font-light uppercase drop-shadow-md"
-      >
-        Со всем ассортиментом справится любой, даже не имеющий опыта.
+      <div class="relative mt-12">
+        <div
+          class="md:absolute lg:top-7 md:top-5 md:mb-0 mb-4 w-full text-center md:text-white text-xs font-light uppercase drop-shadow-md"
+        >
+          Со всем ассортиментом справится любой, даже не имеющий опыта
+        </div>
+        <svg viewBox="0 0 1920 122" class="fill-ribbon">
+          <path
+            d="M5.76991e-06 11L5.7699e-06 132L1920 132L1920 33.9999L1687.5 19.0001L1435.5 22.9999L955 1.92908e-05L481.5 22.9999L5.76991e-06 11Z"
+            fill="#FF2D32"
+          />
+        </svg>
       </div>
-      <svg viewBox="0 0 1920 122" class="fill-ribbon">
-        <path
-          d="M5.76991e-06 11L5.7699e-06 132L1920 132L1920 33.9999L1687.5 19.0001L1435.5 22.9999L955 1.92908e-05L481.5 22.9999L5.76991e-06 11Z"
-          fill="#FF2D32"
-        />
-      </svg>
     </div>
   </section>
 </template>

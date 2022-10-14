@@ -14,7 +14,7 @@
         <div class="grow bg-ribbon"></div>
       </div>
       <div
-        class="mt-7 mb-14 lg:text-2xl text-xl text-center text-black font-normal uppercase drop-shadow-md"
+        class="mt-5 mb-14 lg:text-2xl text-xl text-center text-black font-normal uppercase drop-shadow-md"
       >
         Самый маржинальный продукт летнего ассортимента
       </div>
@@ -32,13 +32,15 @@
                 >20 видов лимонада</span
               >
             </div>
-            <p class="mt-1 text-sm text-justify">Яркие, вкусные, ледяные.</p>
+            <p class="mt-1 text-md text-justify drop-shadow-sm">
+              Яркие, вкусные, ледяные.
+            </p>
             <div class="mt-1 bg-og shadow py-2 text-center">
               <span class="text-lg font-bold uppercase drop-shadow"
                 >10 видов напитков</span
               >
             </div>
-            <p class="mt-1 text-sm text-justify">
+            <p class="mt-1 text-md text-justify drop-shadow-sm">
               На основе кофе холодных или горячих.
             </p>
           </div>
@@ -53,10 +55,10 @@
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og shadow py-2 text-center">
               <span class="text-lg font-bold uppercase drop-shadow"
-                >3 вида мороженого</span
+                >3 вида мягкого мороженого</span
               >
             </div>
-            <p class="mt-1 text-sm text-justify">
+            <p class="mt-1 text-md text-justify drop-shadow-sm">
               Сливочное шоколадное клубничное и двойные сочетания.
             </p>
           </div>
@@ -71,26 +73,19 @@
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og shadow py-2 text-center">
               <span class="text-lg font-bold uppercase drop-shadow"
-                >Молочные коктейли</span
+                >Молочные коктейли и флури</span
               >
             </div>
-            <p class="mt-1 text-sm text-justify">
+            <p class="mt-1 text-md text-justify drop-shadow-sm">
               На основе мягкого мороженого и сухой смеси на молоке с добавлением
               натуральных замороженных фруктов и пюре.
             </p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="relative mt-12">
-      <div
-        class="md:absolute md:top-7 md:left-1/4 md:mb-0 mb-4 md:text-white text-center text-xs font-light uppercase drop-shadow-md"
-      >
-        Со всем ассортиментом справится любой даже не имеющий опыта
-      </div>
-      <svg viewBox="0 0 1920 122" class="fill-ribbon">
+      <svg viewBox="0 0 1920 101" class="mt-12 fill-ribbon">
         <path
-          d="M5.76991e-06 11L5.7699e-06 132L1920 132L1920 33.9999L1687.5 19.0001L1435.5 22.9999L955 1.92908e-05L481.5 22.9999L5.76991e-06 11Z"
+          d="M5.28908e-06 0L5.28908e-06 121L1920 121L1920 22.9998L1687.5 8.00004L1435.5 22.9999L955 0L481.5 22.9998L5.28908e-06 0Z"
           fill="#FF2D32"
         />
       </svg>

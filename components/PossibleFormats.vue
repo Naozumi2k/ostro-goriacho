@@ -24,7 +24,7 @@
                 >Стационарный</span
               >
             </div>
-            <p class="mt-1 text-sm text-justify">
+            <p class="mt-1 text-md text-justify drop-shadow-sm">
               Собственность или низкая аренда за счёт отсутствия торгового зала.
             </p>
           </div>
@@ -42,7 +42,7 @@
                 >Фудтрак</span
               >
             </div>
-            <p class="mt-1 text-sm text-justify">
+            <p class="mt-1 text-md text-justify drop-shadow-sm">
               Мобильность и низкая цена аренды земли.
             </p>
           </div>
@@ -58,18 +58,18 @@
             <div class="bg-og shadow w-full py-2 text-center">
               <span class="text-lg font-bold uppercase drop-shadow">НТО</span>
             </div>
-            <p class="mt-1 text-sm text-justify">
+            <p class="mt-1 text-md text-justify drop-shadow-sm">
               Привлекательность и низкая цена аренды земли.
             </p>
           </div>
         </div>
       </div>
+      <svg viewBox="0 0 1920 73" class="mt-14 fill-ribbon">
+        <path
+          d="M1920 0.000202396L1920 73.0002L-3.19093e-06 73.0001L-1.00536e-06 23L232.5 8.00024L484.5 23.0001L965 0.000202396L1438.5 23L1920 0.000202396Z"
+        />
+      </svg>
     </div>
-    <svg viewBox="0 0 1920 73" class="mt-14 fill-ribbon">
-      <path
-        d="M1920 0.000202396L1920 73.0002L-3.19093e-06 73.0001L-1.00536e-06 23L232.5 8.00024L484.5 23.0001L965 0.000202396L1438.5 23L1920 0.000202396Z"
-      />
-    </svg>
   </section>
 </template>
 

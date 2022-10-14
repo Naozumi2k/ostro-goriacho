@@ -45,5 +45,12 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: yarn
 
-      - name: Run linter 👀
-        run: yarn lint
+      - name: Run generate 🏗️
+        run: yarn generate
+
+      - uses: 'marvinpinto/action-automatic-releases@latest'
+        with:
+          repo_token: '${{ secrets.GITHUB_TOKEN }}'
+          prerelease: false
+          files: |
+            dist

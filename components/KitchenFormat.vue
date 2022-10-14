@@ -7,13 +7,14 @@
           <div
             class="sm:my-0 my-3 lg:text-5xl text-4xl text-center text-og font-medium uppercase drop-shadow-md"
           >
-            Открытая кухня и формат TO GO
+            Открытая кухня<br />
+            и формат TO GO
           </div>
         </div>
         <div class="grow bg-ribbon"></div>
       </div>
       <div
-        class="mt-7 mb-24 lg:text-2xl text-xl text-center text-black font-normal uppercase drop-shadow-md"
+        class="mt-5 mb-24 lg:text-2xl text-xl text-center text-black font-normal uppercase drop-shadow-md"
       >
         Не требуется помещение с залом обслуживания
       </div>
@@ -58,13 +59,13 @@
           </div>
         </div>
       </div>
+      <svg viewBox="0 0 1920 121" class="mt-14 fill-ribbon">
+        <path
+          d="M5.28908e-06 0L5.28908e-06 121L1920 121L1920 22.9998L1687.5 8.00004L1435.5 22.9999L955 0L481.5 22.9998L5.28908e-06 0Z"
+          fill="#FF2D32"
+        />
+      </svg>
     </div>
-    <svg viewBox="0 0 1920 121" class="mt-14 fill-ribbon">
-      <path
-        d="M5.28908e-06 0L5.28908e-06 121L1920 121L1920 22.9998L1687.5 8.00004L1435.5 22.9999L955 0L481.5 22.9998L5.28908e-06 0Z"
-        fill="#FF2D32"
-      />
-    </svg>
   </section>
 </template>
 

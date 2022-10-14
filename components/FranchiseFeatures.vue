@@ -38,9 +38,9 @@
         </div>
       </div>
       <div
-        class="mt-5 flex flex-wrap items-center justify-center md:space-y-0 space-y-7"
+        class="mt-5 relative flex flex-wrap items-center justify-center md:space-y-0 space-y-7"
       >
-        <div class="grow pl-7 md:w-1/2">
+        <div class="lg:pl-7 md:pl-5 md:w-1/2">
           <div
             class="text-white lg:md:text-2xl md:text-xl text-lg uppercase font-bold drop-shadow-lg"
           >
@@ -53,13 +53,21 @@
             <li>Не требуется опыт работы в общепите</li>
             <li>Быстрая окупаемость</li>
             <li>
-              Малая площадь от 15м<sup>2</sup> помещения не требующая зала
-              обслуживания
+              Малая площадь от 15м<sup>2</sup> помещения,<br />
+              не требующая зала обслуживания
             </li>
             <li>Актуальный формат To Go</li>
             <li>Легкая масштабируемость формата</li>
             <li>Полная поддержка при открытии точки</li>
           </ul>
+
+          <div
+            class="md:absolute lg:top-[46%] md:top-[45%] lg:left-[35%] md:left-[42%] md:mt-0 mt-7 text-white text-sm font-light drop-shadow-lg"
+          >
+            <Arrow class="md:block hidden -ml-[25%] w-20 drop-shadow" />
+            Возврат инвестиций от 4 месяцев<br />
+            Реализация проекта: 1-2 месяца
+          </div>
         </div>
 
         <div class="md:w-1/2">
@@ -73,13 +81,16 @@
 <script>
 import Pepper from '@/assets/svg/pepper.svg?inline'
 import Hotdog from '@/assets/svg/hotdog.svg?inline'
+import Arrow from '@/assets/svg/arrow.svg?inline'
 
 export default {
   name: 'FranchiseFeatures',
   components: {
     Pepper,
     Hotdog,
+    Arrow,
   },
+  mounted() {},
 }
 </script>
 

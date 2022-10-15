@@ -11,6 +11,8 @@
       <Drinks-Desserts />
       <Meat-Vegetables />
       <Franchise-Support />
+      <Menu-Margin />
+      <Contacts-Links />
     </div>
   </div>
 </template>
@@ -24,6 +26,8 @@ import WowProduct from '@/components/WowProduct.vue'
 import DrinksDesserts from '@/components/DrinksDesserts.vue'
 import MeatVegetables from '@/components/MeatVegetables.vue'
 import FranchiseSupport from '@/components/FranchiseSupport.vue'
+import MenuMargin from '@/components/MenuMargin.vue'
+import ContactsLinks from '@/components/ContactsLinks.vue'
 
 export default {
   name: 'IndexPage',
@@ -36,6 +40,8 @@ export default {
     DrinksDesserts,
     MeatVegetables,
     FranchiseSupport,
+    MenuMargin,
+    ContactsLinks,
   },
 }
 </script>

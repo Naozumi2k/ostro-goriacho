@@ -19,7 +19,7 @@
               <Restaurant />
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
-            <div class="bg-og shadow w-full py-2 text-center">
+            <div class="bg-og py-2 text-center rounded-md">
               <span class="text-lg font-bold uppercase drop-shadow"
                 >Стационарный</span
               >
@@ -37,7 +37,7 @@
               <Foodtrack />
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
-            <div class="bg-og shadow py-2 text-center">
+            <div class="bg-og py-2 text-center rounded-md">
               <span class="text-lg font-bold uppercase drop-shadow"
                 >Фудтрак</span
               >
@@ -55,7 +55,7 @@
               <NTO />
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
-            <div class="bg-og shadow w-full py-2 text-center">
+            <div class="bg-og py-2 text-center rounded-md">
               <span class="text-lg font-bold uppercase drop-shadow">НТО</span>
             </div>
             <p class="mt-1 text-md text-justify drop-shadow-sm">

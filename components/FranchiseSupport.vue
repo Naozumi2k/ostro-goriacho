@@ -81,7 +81,7 @@
       </div>
       <div class="relative mt-12">
         <div
-          class="md:absolute lg:top-5 md:top-5 md:mb-0 mb-4 w-full md:text-white text-center text-lg font-light uppercase drop-shadow-md"
+          class="md:absolute lg:top-5 md:top-5 md:mb-0 mb-4 w-full md:text-white text-center text-lg font-normal uppercase drop-shadow-md"
         >
           Обучение
         </div>

@@ -27,7 +27,7 @@
               <Burger />
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
-            <div class="bg-og shadow py-2 text-center">
+            <div class="bg-og py-2 text-center rounded-md">
               <span class="text-lg font-bold uppercase drop-shadow"
                 >С говяжьим рубленным бифштексом
               </span>
@@ -61,7 +61,7 @@
               <VeganBurger class="pl-5" />
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
-            <div class="bg-og shadow py-2 text-center">
+            <div class="bg-og py-2 text-center rounded-md">
               <span class="text-lg font-bold uppercase drop-shadow"
                 >C растительной котлетой Hi Burger</span
               >
@@ -96,7 +96,7 @@
               <SeasonBurger class="pb-3" />
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
-            <div class="bg-og shadow py-2 text-center">
+            <div class="bg-og py-2 text-center rounded-md">
               <span class="text-lg font-bold uppercase drop-shadow"
                 >Сезонные рецепты</span
               >

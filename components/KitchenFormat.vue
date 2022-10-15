@@ -23,9 +23,10 @@
           <div class="grow">
             <h4 class="relative text-xl text-black font-bold uppercase">
               <div class="z-10 drop-shadow-lg">
+                <div class="text-2xl text-og drop-shadow-none">1</div>
                 Оборудование надёжного российского производителя
               </div>
-              <Fire class="-z-10 absolute -left-6 -top-14 w-16" />
+              <Fire class="-z-10 absolute -left-7 -top-6 w-16" />
             </h4>
             <div class="mt-3 text-sm text-black font-normal">
               За счёт своей можности позволяет существенно экономить на
@@ -36,9 +37,13 @@
         <div class="flex px-4 md:w-1/3 w-full">
           <div class="grow">
             <h4 class="relative text-xl text-black font-bold uppercase">
-              <div class="z-10 drop-shadow-lg">Открытая кухня</div>
-              <Fire class="-z-10 absolute -left-6 -top-14 w-16" />
+              <div class="z-10 drop-shadow-lg">
+                <div class="text-2xl text-og drop-shadow-none">2</div>
+                Открытая кухня
+              </div>
+              <Fire class="-z-10 absolute -left-7 -top-6 w-16" />
             </h4>
+
             <div class="mt-3 text-sm text-black font-normal">
               Способствует повышенной лояльности посетителей за счёт визуального
               наблюдения всех этапов приготовления заказов.
@@ -48,8 +53,11 @@
         <div class="flex px-4 md:w-1/3 w-full">
           <div class="grow">
             <h4 class="relative text-xl text-black font-bold uppercase">
-              <div class="z-10 drop-shadow-lg">Формат TO GO</div>
-              <Fire class="absolute -z-10 -left-6 -top-14 w-16" />
+              <div class="z-10 drop-shadow-lg">
+                <div class="text-2xl text-og drop-shadow-none">3</div>
+                Формат TO GO
+              </div>
+              <Fire class="absolute -z-10 -left-7 -top-6 w-16" />
             </h4>
             <div class="mt-3 text-sm text-black font-normal">
               В период локдауна мы не потеряли клиентов, наоборот за счёт

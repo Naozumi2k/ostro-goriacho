@@ -8,10 +8,12 @@ export default {
     htmlAttrs: {
       lang: 'ru',
     },
+    // prettier-ignore
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'франшиза ресторана быстрого питания' },
+      { hid: 'keywords', name: 'keywords', content: 'франшиза, шаурма,  хрустящая курочка, быстрый заработок, небольшие инвестиции,  бургеры,  кафе, ресторан,  фудтрак,  стрипсы, куриные крылья' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'theme-color', content: '#ffffff' },
     ],

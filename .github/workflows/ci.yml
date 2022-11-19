@@ -2,11 +2,8 @@ name: ci
 
 on:
   push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+    tags:
+      - 'latest'
 
 jobs:
   ci:
@@ -64,6 +61,4 @@ jobs:
         with:
           artifacts: 'dist.zip'
           token: ${{ secrets.GITHUB_TOKEN }}
-          # tag: 'latest'
-          # replacesArtifacts: true
-          # allowUpdates: true
+          tag: 'latest'

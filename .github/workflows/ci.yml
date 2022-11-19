@@ -46,9 +46,6 @@ jobs:
       - name: Run generate 🏗️
         run: yarn generate
 
-      - name: Latest tag
-        uses: EndBug/latest-tag@v1.5.1
-
       - name: Zip Release 🗜️
         uses: TheDoctor0/zip-release@0.6.2
         with:
@@ -56,11 +53,14 @@ jobs:
           filename: 'dist.zip'
           path: 'dist'
 
+      - name: Latest tag
+        uses: EndBug/latest-tag@v1.5.1
+
       - name: Create Release 🗃️
         uses: ncipollo/release-action@v1.11.1
         with:
           artifacts: 'dist.zip'
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: 'latest'
-          replacesArtifacts: true
-          allowUpdates: true
+          # replacesArtifacts: true
+          # allowUpdates: true

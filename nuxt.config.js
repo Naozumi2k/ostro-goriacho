@@ -12,8 +12,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'франшиза ресторана быстрого питания' },
-      { hid: 'keywords', name: 'keywords', content: 'франшиза, шаурма,  хрустящая курочка, быстрый заработок, небольшие инвестиции,  бургеры,  кафе, ресторан,  фудтрак,  стрипсы, куриные крылья' },
+      { hid: 'description', name: 'description', content: 'франшиза ресторана быстрого питания остро горячо ostrogoriacho' },
+      { hid: 'keywords', name: 'keywords', content: 'острогорячо, остро горячо, ostrogoriacho, франшиза, шаурма,  хрустящая курочка, быстрый заработок, небольшие инвестиции,  бургеры,  кафе, ресторан,  фудтрак,  стрипсы, куриные крылья' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'theme-color', content: '#ffffff' },
     ],
@@ -46,7 +46,19 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    [
+      '@nuxtjs/yandex-metrika',
+      {
+        id: '91243748',
+        webvisor: true,
+        clickmap: true,
+        // useCDN: false,
+        trackLinks: true,
+        accurateTrackBounce: true,
+      },
+    ],
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

@@ -3,7 +3,7 @@
     class="pt-2 md:mb-2 lg:px-0 px-2 my-0 mx-auto max-w-screen-lg shadow-2xl shadow-zinc-900"
   >
     <div class="divide-y-2 divide-dashed">
-      <Main-Title @show="showModal = true" />
+      <Main-Title @show="showFeedback()" />
       <Franchise-Features />
       <Possible-Formats />
       <Kitchen-Format />
@@ -12,7 +12,7 @@
       <Meat-Vegetables />
       <Franchise-Support />
       <Menu-Margin />
-      <Contacts-Links @show="showModal = true" />
+      <Contacts-Links @show="showFeedback()" />
     </div>
     <feedback-modal v-show="showModal" @close="showModal = false" />
   </div>
@@ -49,6 +49,16 @@ export default {
   },
   data() {
     return { showModal: false }
+  },
+  methods: {
+    showFeedback() {
+      if (this.$device.isDesktopOrTablet) {
+        this.showModal = true
+      } else {
+        window.location.href =
+          'https://forms.yandex.ru/u/6378da432530c2739d2841b8/'
+      }
+    },
   },
 }
 </script>

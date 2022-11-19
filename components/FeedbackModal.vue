@@ -5,7 +5,7 @@
       class="fixed inset-0 bg-gray-500 bg-opacity-50 overflow-y-auto h-full w-full"
     >
       <div
-        class="relative top-[20%] mx-auto p-5 w-[650px] border shadow-2xl rounded-md bg-white"
+        class="relative top-[20%] p-3 mx-auto w-[680px] border shadow-2xl rounded-md bg-white"
       >
         <div class="flex flex-row">
           <div class="grow" />

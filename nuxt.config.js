@@ -47,6 +47,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/device',
     [
       '@nuxtjs/yandex-metrika',
       {

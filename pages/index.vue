@@ -3,7 +3,7 @@
     class="pt-2 md:mb-2 lg:px-0 px-2 my-0 mx-auto max-w-screen-lg shadow-2xl shadow-zinc-900"
   >
     <div class="divide-y-2 divide-dashed">
-      <Main-Title />
+      <Main-Title @show="showModal = true" />
       <Franchise-Features />
       <Possible-Formats />
       <Kitchen-Format />
@@ -12,8 +12,9 @@
       <Meat-Vegetables />
       <Franchise-Support />
       <Menu-Margin />
-      <Contacts-Links />
+      <Contacts-Links @show="showModal = true" />
     </div>
+    <feedback-modal v-show="showModal" @close="showModal = false" />
   </div>
 </template>
 
@@ -29,6 +30,8 @@ import FranchiseSupport from '@/components/FranchiseSupport.vue'
 import MenuMargin from '@/components/MenuMargin.vue'
 import ContactsLinks from '@/components/ContactsLinks.vue'
 
+import FeedbackModal from '@/components/FeedbackModal.vue'
+
 export default {
   name: 'IndexPage',
   components: {
@@ -42,6 +45,10 @@ export default {
     FranchiseSupport,
     MenuMargin,
     ContactsLinks,
+    FeedbackModal,
+  },
+  data() {
+    return { showModal: false }
   },
 }
 </script>

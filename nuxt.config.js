@@ -68,6 +68,8 @@ export default {
         decodeEntities: true,
         minifyCSS: true,
         minifyJS: true,
+        extractCSS: true,
+        optimizeCSS: true,
         processConditionalComments: true,
         removeEmptyAttributes: true,
         removeRedundantAttributes: true,

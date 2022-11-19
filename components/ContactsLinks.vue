@@ -133,6 +133,14 @@
             </ul>
           </div>
         </div>
+        <div class="w-full text-center">
+          <button
+            class="md:mt-10 mt-5 px-7 py-2 bg-ribbon text-white text-2xl font-normal rounded-md drop-shadow-lg shadow-lg"
+            @click="$emit('show')"
+          >
+            Связаться с нами
+          </button>
+        </div>
       </div>
 
       <div class="relative mt-12">

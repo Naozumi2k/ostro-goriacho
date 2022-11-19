@@ -22,7 +22,14 @@
               Формата
               <div class="inline text-yellow-300">To Go</div>
             </div>
+
             <Pepper class="md:mt-5 mt-2 md:h-14 h-8 drop-shadow-lg" />
+            <button
+              class="md:mt-5 mt-2 bg-og px-3 py-2 text-gray-600 font-normal rounded-md drop-shadow-lg"
+              @click="$emit('show')"
+            >
+              Связаться с нами
+            </button>
           </div>
         </div>
         <div class="md:w-2/3 w-full">

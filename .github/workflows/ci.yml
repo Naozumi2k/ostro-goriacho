@@ -53,14 +53,17 @@ jobs:
           filename: 'dist.zip'
           path: 'dist'
 
-      - name: Latest tag
-        uses: EndBug/latest-tag@v1.5.1
+      - uses: dev-drprasad/delete-older-releases@v0.2.0
+        with:
+          keep_latest: 0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Release 🗃️
         uses: ncipollo/release-action@v1.11.1
         with:
           artifacts: 'dist.zip'
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: 'latest'
+          # tag: 'latest'
           # replacesArtifacts: true
           # allowUpdates: true

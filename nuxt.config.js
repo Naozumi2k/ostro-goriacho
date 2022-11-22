@@ -16,6 +16,7 @@ export default {
       { hid: 'keywords', name: 'keywords', content: 'острогорячо, остро горячо, ostrogoriacho, франшиза, шаурма,  хрустящая курочка, быстрый заработок, небольшие инвестиции,  бургеры,  кафе, ресторан,  фудтрак,  стрипсы, куриные крылья' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'theme-color', content: '#ffffff' },
+      { name: 'yandex-verification', content: '289ac8c2f628af69'}
     ],
     // prettier-ignore
     link: [

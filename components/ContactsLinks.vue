@@ -103,9 +103,9 @@
               >
                 <div class="grow">Telegram</div>
                 <div class="inline">
-                  <a href="https://t.me/ostro_goriacho" target="_blank"
-                    >t.me/ostro_goriacho</a
-                  >
+                  <a href="https://t.me/ostro_goriacho" target="_blank">
+                    t.me/ostro_goriacho
+                  </a>
                 </div>
               </li>
               <li
@@ -113,22 +113,33 @@
               >
                 <div class="grow">VK</div>
                 <div class="inline">
-                  <a href="https://vk.com/ostro_goriacho" target="_blank"
-                    >vk.com/ostro_goriacho</a
-                  >
+                  <a href="https://vk.com/ostro_goriacho" target="_blank">
+                    vk.com/ostro_goriacho
+                  </a>
                 </div>
               </li>
               <li
                 class="mt-1 flex flex-row border-b-2 border-dashed border-gray-600"
               >
                 <div class="grow">ЯRus</div>
-                <div class="inline">@ostrogoriacho</div>
+                <div class="inline">
+                  <a href="https://yarus.ru/user/2705734" target="_blank">
+                    @ostrogoriacho
+                  </a>
+                </div>
               </li>
               <li
                 class="mt-1 flex flex-row border-b-2 border-dashed border-gray-600"
               >
                 <div class="grow">Запрещенная в РФ</div>
-                <div class="inline">@ostro_goriacho</div>
+                <div class="inline">
+                  <a
+                    href="https://www.instagram.com/ostro_goriacho"
+                    target="_blank"
+                  >
+                    @ostro_goriacho
+                  </a>
+                </div>
               </li>
             </ul>
           </div>

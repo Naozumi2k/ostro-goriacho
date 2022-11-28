@@ -28,17 +28,17 @@
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og py-2 text-center rounded-md">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >20 видов лимонада</span
-              >
+              <span class="text-lg font-bold uppercase drop-shadow">
+                20 видов лимонада
+              </span>
             </div>
             <p class="mt-1 text-md text-justify drop-shadow-sm">
               Яркие, вкусные, ледяные.
             </p>
             <div class="mt-1 bg-og py-2 text-center rounded-md">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >10 видов напитков</span
-              >
+              <span class="text-lg font-bold uppercase drop-shadow">
+                10 видов напитков
+              </span>
             </div>
             <p class="mt-1 text-md text-justify drop-shadow-sm">
               На основе кофе холодных или горячих.
@@ -54,9 +54,9 @@
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og py-2 text-center rounded-md">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >3 вида мягкого мороженого</span
-              >
+              <span class="text-lg font-bold uppercase drop-shadow">
+                3 вида мягкого мороженого
+              </span>
             </div>
             <p class="mt-1 text-md text-justify drop-shadow-sm">
               Сливочное шоколадное клубничное и двойные сочетания.
@@ -72,9 +72,9 @@
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og py-2 text-center rounded-md">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >Молочные коктейли и флури</span
-              >
+              <span class="text-lg font-bold uppercase drop-shadow">
+                Молочные коктейли и флури
+              </span>
             </div>
             <p class="mt-1 text-md text-justify drop-shadow-sm">
               На основе мягкого мороженого и сухой смеси на молоке с добавлением

@@ -27,9 +27,9 @@
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og py-2 text-center rounded-md">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >20 видов бургеров</span
-              >
+              <span class="text-lg font-bold uppercase drop-shadow">
+                20 видов бургеров
+              </span>
             </div>
             <p class="mt-1 text-md text-justify drop-shadow-sm">
               Легкая рецептура, маленькие, средние, большие.
@@ -45,9 +45,9 @@
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og py-2 text-center rounded-md">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >20 видов шавермы и твистеров</span
-              >
+              <span class="text-lg font-bold uppercase drop-shadow">
+                20 видов шавермы и твистеров
+              </span>
             </div>
             <p class="mt-1 text-md text-justify drop-shadow-sm">
               Самый популярный продукт в ассортименте.
@@ -63,9 +63,9 @@
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og py-2 text-center rounded-md">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >10 видов панини</span
-              >
+              <span class="text-lg font-bold uppercase drop-shadow">
+                10 видов панини
+              </span>
             </div>
             <p class="mt-1 text-md text-justify drop-shadow-sm">
               Традиционный итальянский сандвич с сочным куринным филе.

@@ -20,9 +20,9 @@
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og py-2 text-center rounded-md">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >Стационарный</span
-              >
+              <span class="text-lg font-bold uppercase drop-shadow">
+                Стационарный
+              </span>
             </div>
             <p class="mt-1 text-md text-justify drop-shadow-sm">
               Собственность или низкая аренда за счёт отсутствия торгового зала.
@@ -38,9 +38,9 @@
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og py-2 text-center rounded-md">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >Фудтрак</span
-              >
+              <span class="text-lg font-bold uppercase drop-shadow">
+                Фудтрак
+              </span>
             </div>
             <p class="mt-1 text-md text-justify drop-shadow-sm">
               Мобильность и низкая цена аренды земли.

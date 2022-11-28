@@ -28,27 +28,26 @@
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og py-2 text-center rounded-md">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >С говяжьим рубленным бифштексом
+              <span class="text-lg font-bold uppercase drop-shadow">
+                С говяжьим рубленным бифштексом
               </span>
             </div>
             <div class="mt-1 text-md drop-shadow-sm">
               <div class="flex flex-row">
                 <span class="grow">
                   <div class="inline font-bold">22</div>
-                  вида бургеров</span
-                >
-
-                <span class="grow"
-                  ><div class="inline text-md font-bold">3</div>
-                  вида панини</span
-                >
+                  вида бургеров
+                </span>
+                <span class="grow">
+                  <div class="inline text-md font-bold">3</div>
+                  вида панини
+                </span>
               </div>
               <div class="mt-1 flex flex-row">
                 <span class="grow">
                   <div class="inline font-bold">4</div>
-                  вида лонгеров</span
-                >
+                  вида лонгеров
+                </span>
               </div>
             </div>
           </div>
@@ -62,9 +61,9 @@
             </div>
             <div class="w-0.5 h-6 mx-auto bg-og" />
             <div class="bg-og py-2 text-center rounded-md">
-              <span class="text-lg font-bold uppercase drop-shadow"
-                >C растительной котлетой Hi Burger</span
-              >
+              <span class="text-lg font-bold uppercase drop-shadow">
+                C растительной котлетой Hi Burger
+              </span>
             </div>
             <p class="mt-1 text-md drop-shadow-sm">
               Производитель - компания ЭФКО.
